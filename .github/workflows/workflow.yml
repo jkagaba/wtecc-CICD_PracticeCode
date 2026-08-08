@@ -1,4 +1,4 @@
-```yaml
+
 name: CI workflow_02
 
 on:
@@ -31,4 +31,3 @@ jobs:
       - name: Run Unit tests with nose
         run: |
           nosetests -v --with-spec --spec-color --with-coverage --cover-package=app
-```
